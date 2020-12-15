@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_margin="20dp"
     android:gravity="center"
-    tools:context=".CalculatortaskActivity">
+    tools:context=".CalendartaskActivity">
 
     <EditText
         android:layout_width="match_parent"
@@ -15,6 +15,7 @@
         android:hint="Enter Date Of Joining"
         android:layout_margin="12dp"
         android:id="@+id/etjoindate"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,6 +25,7 @@
         android:id="@+id/etdob"/>
 
     <TextView
+        android:id="@+id/tvDate"
         android:text="OUTPUT"
         android:layout_width="wrap_content"
 

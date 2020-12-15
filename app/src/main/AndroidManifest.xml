@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CalculatortaskActivity"></activity>
-        <activity android:name=".CalenderActivity">
+        <activity android:name=".CalendartaskActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".CalenderActivity">
+
         </activity>
         <activity android:name=".AlertActivity"></activity>
         <activity android:name=".AutoComplete" />
