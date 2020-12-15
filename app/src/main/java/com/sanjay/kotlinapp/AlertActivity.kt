@@ -37,7 +37,6 @@ class AlertActivity : AppCompatActivity() {
             alertDialog.setCancelable(false)
             alertDialog.show()
 
-
         }
 
     }
